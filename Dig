@@ -1,0 +1,26 @@
+{
+  "name": "Dig",
+  "baseManaCost": 4,
+  "type": "SPELL",
+  "heroClass": "RUBY",
+  "rarity": "RARE",
+  "description": "Draw 2 cards. If you have a weapon equipped, draw 3 instead.",
+  "targetSelection": "NONE",
+  "spell": {
+    "class": "EitherOrSpell",
+    "condition": {
+      "class": "HasWeaponCondition"
+    },
+    "spell1": {
+      "class": "DrawCardSpell",
+      "value": 2
+    },
+    "spell2": {
+      "class": "DrawCardSpell",
+      "value": 3
+    }
+  },
+  "collectible": true,
+  "set": "CLASSIC",
+  "fileFormatVersion": 1
+}
