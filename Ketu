@@ -1,0 +1,16 @@
+{
+  "name": "Ketu",
+  "heroPower": "hero_power_Mine_Minerals",
+  "baseManaCost": 0,
+  "type": "HERO",
+  "heroClass": "RUBY",
+  "rarity": "FREE",
+  "description": "Skill: Gain 1 Armor. Upgrades after 2 uses (up to 3)",
+  "attributes": {
+    "HP": 30,
+    "MAX_HP": 30
+  },
+  "collectible": false,
+  "set": "CUSTOM",
+  "fileFormatVersion": 1
+}
