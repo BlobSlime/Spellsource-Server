@@ -1,0 +1,16 @@
+{
+  "name": "Flame Lance",
+  "baseManaCost": 4,
+  "type": "SPELL",
+  "heroClass": "BLUE",
+  "rarity": "COMMON",
+  "description": "Deal $7 damage to a minion.",
+  "targetSelection": "MINIONS",
+  "spell": {
+    "class": "DamageSpell",
+    "value": 7
+  },
+  "collectible": true,
+  "set": "BASIC",
+  "fileFormatVersion": 1
+}
